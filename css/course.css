@@ -1,0 +1,122 @@
+#banner {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: white;
+  }  
+
+.topic {margin: 20vh 0 29vh 0;}
+.topic h1 {font-size: 4em;}
+.topic p {width: 25em;}
+.topic-link {
+    background-color: white;
+    color: black;
+    padding: 1.5em 12em 1.5em 2.5em;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    background-color: rgb(246, 246, 246) !important;
+}
+
+
+/*
+.MultiCarousel {
+        margin-top: 5em;
+        float: left;
+        overflow: hidden;
+        padding: 15px;
+        width: 100%;
+        position:relative;
+    }
+
+.MultiCarousel .MultiCarousel-inner {
+    transition: 1s ease all;
+    float: left; 
+}
+
+.MultiCarousel .MultiCarousel-inner .item {
+    float: left;        
+    line-height: 1;
+}
+
+.MultiCarousel .MultiCarousel-inner .item .pad15  {
+    vertical-align: text-bottom
+    
+}
+
+.MultiCarousel .MultiCarousel-inner .item .pad15 .lead {
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.MultiCarousel .MultiCarousel-inner .item > div {
+    height: 12em;
+    text-align: center;
+    padding:10px;
+    margin:10px;
+    background:#f1f1f1;
+    color:#666;
+}
+
+.MultiCarousel .leftLst, .MultiCarousel .rightLst {
+    position: absolute;
+    border-radius: 50%;
+    top:calc(50% - 20px); 
+    }
+
+.MultiCarousel .leftLst {
+    background-color: transparent !important;
+    border: none;
+    left: 0;
+
+}
+
+.MultiCarousel .rightLst {
+    background-color: transparent !important;
+    border: none;
+    right:0;
+}
+    
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {
+    pointer-events: none;
+    background:#ccc;
+}
+*/
+
+.course {
+    background-color: white;
+    padding: 2em;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+.course hr {
+    width:50%;
+    text-align:left;
+    margin-left:0;
+    height: 1px;
+    opacity:1;
+    background-color: transparent;
+}
+.course .course-card .join-class {
+    position:absolute;               
+    bottom:0;                        
+    left:1em;
+}
+
+.course-img {
+
+    background-size: cover;
+    
+}
+
+.course-img img {
+    max-height: 32vh;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.1);
+    float: right;
+}
